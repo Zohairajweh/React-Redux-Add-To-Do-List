@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Component, Fragment } from 'react';
-import { Input, Button, GridColumn, GridRow } from 'semantic-ui-react';
+import { Input, Button} from 'semantic-ui-react';
 import { connect } from 'react-redux';
 import { RootState } from '../store';
 import { additemToList, removeitemFromList } from '../store/actions';
@@ -28,14 +28,16 @@ export class AddTaksButton extends Component<IAddTaksButtonProps, IAddTaksButton
 
   }
 
-  onClickAddTask(newTaskDescription: string) {
+  onClickAddTask(newTaskDescription: string ) {
     if (newTaskDescription !== '' ) {
+  
     this.props.additemToList(newTaskDescription);
-
+    this.setState( { newTaskDescription:''})
 
     }
+  
  
-   
+    
   }
 
   public render() {
