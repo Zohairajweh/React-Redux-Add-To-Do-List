@@ -5,9 +5,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('../src/images/Edmonton.jpg');
+  background-repeat:no-repeat ;
+
+  color:black;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1{
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: black;
+  text-align: left;
+  font-size: 50px;
+font-family: 'Courier New', Courier, monospace;
+left: 50px;
+}
+h2,h3{
+  position: relative;
+  color: rgb(1, 1, 5);
+  font-size: 50px;
+  text-align: center;
+  left: 30px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.Input1{
+  position: relative;
+  display: inline;
+  border: none;
+  left: 50px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.Add-Button{
+  position: relative;
+  display: inline;
+  border: none;
+  border-bottom: solid 5px rgb(55, 31, 160);
+  left: 20px;
+  
+}
+.List1{
+  position: relative;
+  display: inline;
+  border: none;
+  left: 170px;
+  font-family: 'Courier New', Courier, monospace;
+  bottom: 30px;
+  font-size: 30px;
+}
+.removeitem{
+  position: relative;
+  display: inline;
+  border: none;
+  bottom: 30px;
+  left: 160px;
+  color: red; 
 }
